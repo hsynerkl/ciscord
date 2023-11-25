@@ -3,7 +3,7 @@ import Section2Img from "@/app/assets/images/section2.svg";
 
 const SecondSection = () => {
   return (
-    <div className="container grid grid-cols-2 py-20">
+    <section className="container grid grid-cols-2 py-24">
       <Image src={Section2Img} alt="left" className="my-auto" />
       <div className="flex items-center flex-col justify-center">
         <p className="max-w-sm text-5xl text-[#23272a] font-extrabold leading-[1.100]">
@@ -15,7 +15,7 @@ const SecondSection = () => {
           paylaşabilir veya yalnızca gününden bahsedebilirsin.
         </p>
       </div>
-    </div>
+    </section>
   );
 };
 
