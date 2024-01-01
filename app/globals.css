@@ -4,14 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "gg-sans";
-  src: URL("./assets/fonts/ggsansBold.ttf") format("truetype");
-  src: URL("./assets/fonts/ggsansMedium.ttf") format("truetype");
-  src: URL("./assets/fonts/ggsansRegular.ttf") format("truetype");
-  src: URL("./assets/fonts/ggsansSemibold.ttf") format("truetype");
-}
-
 * {
   font-family: "gg-sans", sans-serif;
 }
